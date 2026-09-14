@@ -33,7 +33,7 @@ class Solution(object):
         if m==12:
             r=334+d
         if (y % 400 == 0) or (y % 4 == 0 and y % 100 != 0):
-            if m>=3:
+            if m>2:
                 r+=1
         return r
         
