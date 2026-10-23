@@ -3,10 +3,10 @@ class Solution(object):
         s2 = []
         t2 = []
 
-        for ch in s:
-            s2.append(s.index(ch))
-        for ch in t:
-            t2.append(t.index(ch))
+        for i in s:
+            s2.append(s.index(i))
+        for i in t:
+            t2.append(t.index(i))
         if s2==t2:
             return True
         else:
