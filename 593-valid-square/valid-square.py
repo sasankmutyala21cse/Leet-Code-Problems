@@ -12,4 +12,5 @@ class Solution(object):
         d.sort()
         return (d[0] > 0 and
                 d[0] == d[1] == d[2] == d[3] and
-                d[4] == d[5]) 
+                d[4] == d[5] and
+                d[4] == 2 * d[0])
